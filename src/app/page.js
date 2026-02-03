@@ -33,31 +33,58 @@ const BUSINESS = {
 };
 
 const SERVICES = [
-  {title: "Road Call Service",
-  desc: "On-site roadside assistance for breakdowns, no-starts, and minor repairs to get you moving safely.",
-  icon: Truck,
+  {
+    title: "Road Call Service",
+    desc: "On-site roadside assistance for breakdowns, no-starts, and minor repairs to get you moving safely.",
+    icon: Truck,
+    bullets: [
+      "Rapid-response road service to reduce downtime",
+      "On-site diagnostics and get-you-moving repairs",
+      "Clear repair options explained before work begins",
+    ],
   },
   {
     title: "Preventive Maintenance (PM)",
-    desc: "Oil & filter service, grease, inspections, fluid checks, and DOT-ready maintenance to reduce downtime.",
+    desc: "Oil & filter service, grease, inspections, fluid checks, and DOT-ready maintenance.",
     icon: ShieldCheck,
+    bullets: [
+      "DOT-compliant PMs performed to fleet standards",
+      "Fluids, filters, and inspections done right the first time",
+      "Maintenance focused on preventing failures",
+    ],
   },
   {
     title: "Truck & Trailer Repair",
-    desc: "Mechanical repairs for heavy-duty trucks and trailers—diagnostics through repair with fast turnaround.",
+    desc: "Mechanical repairs for heavy-duty trucks and trailers with fast turnaround.",
     icon: Truck,
+    bullets: [
+      "Heavy-duty repairs backed by real diagnostics",
+      "No guesswork or unnecessary parts replacement",
+      "Turnaround focused on keeping trucks earning",
+    ],
   },
   {
     title: "Electrical & Diagnostics",
-    desc: "Check-engine concerns, electrical issues, and drivability diagnostics with clear findings and next steps.",
+    desc: "Check-engine concerns, electrical issues, and drivability diagnostics.",
     icon: Wrench,
+    bullets: [
+      "Accurate fault tracing for electrical issues",
+      "Sensor, wiring, and system diagnostics",
+      "Clear findings with recommended next steps",
+    ],
   },
   {
     title: "Fleet Service",
-    desc: "Consistent maintenance standards for fleets—scheduling, documentation, and reliable communication.",
+    desc: "Consistent maintenance standards for fleets with reliable communication.",
     icon: BadgeCheck,
+    bullets: [
+      "Consistent service standards across your fleet",
+      "Fleet-friendly scheduling and repair tracking",
+      "Clear documentation dispatch can rely on",
+    ],
   },
 ];
+;
 
 const FAQ = [
   {
@@ -280,11 +307,14 @@ export default function NishandTruckSite() {
                   <div>
                     <h3 className="text-lg font-bold">{s.title}</h3>
                     <p className="mt-2 text-sm text-slate-300">{s.desc}</p>
-                    <ul className="mt-4 space-y-2 text-sm text-slate-300">
-                      <li>• Rapid-response road service to reduce downtime</li>
-                      <li>• Fleet-friendly scheduling and documentation</li>
-                      <li>• Focused on reducing downtime</li>
-                    </ul>
+<ul className="mt-4 space-y-2 text-sm text-slate-300">
+  {s.bullets.map((b) => (
+    <li key={b} className="flex gap-2">
+      <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-white/60" />
+      <span>{b}</span>
+    </li>
+  ))}
+</ul>
                   </div>
                 </div>
               </div>
