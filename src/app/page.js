@@ -100,47 +100,52 @@ export default function NishandTruckSite() {
       {/* JSON-LD */}
       <script type="application/ld+json">{JSON.stringify(jsonLd)}</script>
 
-      {/* Top bar */}
-      <div className="border-b border-white/10 bg-slate-950/80 backdrop-blur supports-[backdrop-filter]:bg-slate-950/60">
-        <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
-          <div className="flex items-center gap-3">
-            <div className="grid h-9 w-9 place-items-center rounded-xl bg-white/10">
-              <<Image
-  src="/images/logo.PNG"
-  alt="Nishand Truck & Trailer Repair Inc logo"
-  width={48}
-  height={48}
-  className="h-9 w-9 md:h-12 md:w-12 object-contain"
-  priority
-/>
- />
-            </div>
-            <div>
-              <div className="text-sm font-semibold tracking-wide">{BUSINESS.name}</div>
-              <div className="text-xs text-slate-300">Truck & Trailer Repair • Fleet Maintenance</div>
-            </div>
-          </div>
+   {/* Top bar */}
+<div className="border-b border-white/10 bg-slate-950/80 backdrop-blur supports-[backdrop-filter]:bg-slate-950/60">
+  <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
+    {/* Left: logo + name */}
+    <div className="flex items-center gap-3">
+      <div className="grid h-9 w-9 place-items-center rounded-xl bg-white/10 overflow-hidden">
+        <Image
+          src="/images/logo.PNG"
+          alt="Nishand Truck & Trailer Repair Inc logo"
+          width={48}
+          height={48}
+          className="h-full w-full object-contain"
+          priority
+        />
+      </div>
 
-          <div className="flex items-center gap-2">
-            <a
-              href={`tel:${BUSINESS.phoneE164}`}
-              className="inline-flex items-center gap-2 rounded-xl bg-white px-3 py-2 text-sm font-semibold text-slate-900 hover:bg-slate-200"
-            >
-              <Phone className="h-4 w-4" />
-              {BUSINESS.phoneDisplay}
-            </a>
-            <a
-              href={BUSINESS.mapsUrl}
-              target="_blank"
-              rel="noreferrer"
-              className="hidden items-center gap-2 rounded-xl border border-white/15 px-3 py-2 text-sm font-semibold text-slate-100 hover:bg-white/5 md:inline-flex"
-            >
-              <MapPin className="h-4 w-4" />
-              Directions
-            </a>
-          </div>
+      <div>
+        <div className="text-sm font-semibold tracking-wide">{BUSINESS.name}</div>
+        <div className="text-xs text-slate-300">
+          Truck & Trailer Repair • Fleet Maintenance
         </div>
       </div>
+    </div>
+
+    {/* Right: buttons */}
+    <div className="flex items-center gap-2">
+      <a
+        href={`tel:${BUSINESS.phoneE164}`}
+        className="inline-flex items-center gap-2 rounded-xl bg-white px-3 py-2 text-sm font-semibold text-slate-900 hover:bg-slate-200"
+      >
+        <Phone className="h-4 w-4" />
+        {BUSINESS.phoneDisplay}
+      </a>
+
+      <a
+        href={BUSINESS.mapsUrl}
+        target="_blank"
+        rel="noreferrer"
+        className="hidden items-center gap-2 rounded-xl border border-white/15 px-3 py-2 text-sm font-semibold text-slate-100 hover:bg-white/5 md:inline-flex"
+      >
+        <MapPin className="h-4 w-4" /> Directions
+      </a>
+    </div>
+  </div>
+</div>
+
 
       {/* Hero */}
       <header className="relative">
