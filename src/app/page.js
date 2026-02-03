@@ -1,4 +1,11 @@
-import Image from "next/image";
+<Image
+  src="/images/logo.png"
+  alt="Nishand Truck & Trailer Repair Inc logo"
+  width={48}
+  height={48}
+  className="h-9 w-9 md:h-12 md:w-12 rounded-xl object-contain"
+/>
+
 import React from "react";
 import { Phone, MapPin, Clock, Wrench, ShieldCheck, Truck, BadgeCheck } from "lucide-react";
 
@@ -14,7 +21,7 @@ const BUSINESS = {
   // If you have a real website URL, replace this.
   websiteUrl: "#",
   // Replace with your actual Google Maps share link when ready.
-  mapsUrl: "https://www.google.com/maps/search/?api=1&query=957%20F%20St%2C%20West%20Sacramento%2C%20CA%2095605",
+  mapsUrl: "https://www.google.com/maps/place/Nishand+Truck+%26+Trailer+Repair+Inc/@38.5854819,-121.5245052,18.75z/data=!4m15!1m8!3m7!1s0x809ad6b0756d503d:0x7d7ca74d01f31071!2s957+F+St,+West+Sacramento,+CA+95605!3b1!8m2!3d38.5853288!4d-121.5240462!16s%2Fg%2F11c4q_x_6h!3m5!1s0x809ad7f00debf915:0xc742ac60b84a8368!8m2!3d38.5859312!4d-121.5243911!16s%2Fg%2F11twr61sqw?entry=ttu&g_ep=EgoyMDI2MDEyOC4wIKXMDSoASAFQAw%3D%3D",
   hours: [
     { day: "Mon", hours: "8:30 AM – 6:00 PM" },
     { day: "Tue", hours: "8:30 AM – 6:00 PM" },
