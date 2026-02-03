@@ -135,7 +135,7 @@ export default function NishandTruckSite() {
           <div className="grid gap-10 md:grid-cols-2 md:items-center">
             <div>
               <h1 className="text-3xl font-extrabold tracking-tight md:text-5xl">
-                Diesel Truck & Trailer Repair in <span className="text-slate-200">West Sacramento</span>
+                Diesel Truck & Trailer Repair + Road Call Services in <span className="text-slate-200">West Sacramento and surrounding areas</span>
               </h1>
               <p className="mt-4 max-w-xl text-base text-slate-300 md:text-lg">
                 Fast, straightforward service for fleets and owner-operators—PMs, diagnostics, electrical, and
