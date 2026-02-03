@@ -261,7 +261,7 @@ export default function NishandTruckSite() {
               </div>
 
               <div className="mt-6 rounded-2xl border border-white/10 bg-white/5 p-4">
-                <div className="text-sm font-semibold">Areas we Service</div>
+                <div className="text-sm font-semibold">Service Area</div>
                 <div className="mt-2 flex flex-wrap gap-2">
                   {BUSINESS.serviceArea.map((x) => (
                     <span
