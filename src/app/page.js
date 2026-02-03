@@ -23,8 +23,7 @@ const BUSINESS = {
     { day: "Sat", hours: "9:00 AM – 4:00 PM" },
     { day: "Sun", hours: "Closed" },
   ],
-  serviceArea: ["TEST UPDATE - REMOVE LATER",
-"West Sacramento", "Sacramento", "Woodland", "Davis", "Elk Grove", "Natomas", "Roseville", "Vacaville","Galt", "Lodi","Rancho Cordova"],
+  serviceArea: ["West Sacramento", "Sacramento", "Woodland", "Davis", "Elk Grove", "Natomas", "Roseville", "Vacaville","Galt", "Lodi","Rancho Cordova"],
 };
 
 const SERVICES = [
