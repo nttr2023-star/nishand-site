@@ -1,17 +1,5 @@
 import Image from "next/image";
-import React from "react";
 import { Phone, MapPin, Clock, Wrench, ShieldCheck, Truck, BadgeCheck } from "lucide-react";
-<Image
-  src="/images/logo.png"
-  alt="Nishand Truck & Trailer Repair Inc logo"
-  width={48}
-  height={48}
-  className="h-9 w-9 md:h-12 md:w-12 rounded-xl object-contain"
-/>
-
-import React from "react";
-import { Phone, MapPin, Clock, Wrench, ShieldCheck, Truck, BadgeCheck } from "lucide-react";
-
 // Single-page marketing site (React + Tailwind)
 // Update these constants to match your Google Business Profile exactly.
 const BUSINESS = {
@@ -22,9 +10,9 @@ const BUSINESS = {
   cityStateZip: "West Sacramento, CA 95605",
   primaryCtaText: "Call for Service",
   // If you have a real website URL, replace this.
-  websiteUrl: "#",
+  websiteUrl: "https://nishand-site.vercel.app",
   // Replace with your actual Google Maps share link when ready.
-  mapsUrl: "https://www.google.com/maps/place/Nishand+Truck+%26+Trailer+Repair+Inc/@38.5854819,-121.5245052,18.75z/data=!4m15!1m8!3m7!1s0x809ad6b0756d503d:0x7d7ca74d01f31071!2s957+F+St,+West+Sacramento,+CA+95605!3b1!8m2!3d38.5853288!4d-121.5240462!16s%2Fg%2F11c4q_x_6h!3m5!1s0x809ad7f00debf915:0xc742ac60b84a8368!8m2!3d38.5859312!4d-121.5243911!16s%2Fg%2F11twr61sqw?entry=ttu&g_ep=EgoyMDI2MDEyOC4wIKXMDSoASAFQAw%3D%3D",
+  mapsUrl: "https://www.google.com/maps/dir/38.586214,-121.5246974/Nishand+Truck+%26+Trailer+Repair+Inc,+971+F+St,+West+Sacramento,+CA+95605/@38.5860726,-121.5268864,17z/data=!3m1!4b1!4m17!1m7!3m6!1s0x809ad7f00debf915:0xc742ac60b84a8368!2sNishand+Truck+%26+Trailer+Repair+Inc!8m2!3d38.5859312!4d-121.5243911!16s%2Fg%2F11twr61sqw!4m8!1m1!4e1!1m5!1m1!1s0x809ad7f00debf915:0xc742ac60b84a8368!2m2!1d-121.5243595!2d38.5859411?entry=ttu&g_ep=EgoyMDI2MDEyOC4wIKXMDSoASAFQAw%3D%3D",
   hours: [
     { day: "Mon", hours: "8:30 AM – 6:00 PM" },
     { day: "Tue", hours: "8:30 AM – 6:00 PM" },
