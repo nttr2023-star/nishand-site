@@ -1,5 +1,5 @@
 <Image
-  src="/images/logo.png"
+  src="/images/logo.PNG"
   alt="Nishand Truck & Trailer Repair Inc logo"
   width={48}
   height={48}
