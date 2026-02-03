@@ -1,3 +1,6 @@
+import Image from "next/image";
+import React from "react";
+import { Phone, MapPin, Clock, Wrench, ShieldCheck, Truck, BadgeCheck } from "lucide-react";
 <Image
   src="/images/logo.png"
   alt="Nishand Truck & Trailer Repair Inc logo"
