@@ -105,7 +105,15 @@ export default function NishandTruckSite() {
         <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-3">
           <div className="flex items-center gap-3">
             <div className="grid h-9 w-9 place-items-center rounded-xl bg-white/10">
-              <Wrench className="h-5 w-5" />
+              <<Image
+  src="/images/logo.PNG"
+  alt="Nishand Truck & Trailer Repair Inc logo"
+  width={48}
+  height={48}
+  className="h-9 w-9 md:h-12 md:w-12 object-contain"
+  priority
+/>
+ />
             </div>
             <div>
               <div className="text-sm font-semibold tracking-wide">{BUSINESS.name}</div>
