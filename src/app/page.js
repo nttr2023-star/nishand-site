@@ -281,7 +281,7 @@ export default function NishandTruckSite() {
                     <h3 className="text-lg font-bold">{s.title}</h3>
                     <p className="mt-2 text-sm text-slate-300">{s.desc}</p>
                     <ul className="mt-4 space-y-2 text-sm text-slate-300">
-                      <li>• Transparent findings and recommendations</li>
+                      <li>• Rapid-response road service to reduce downtime</li>
                       <li>• Fleet-friendly scheduling and documentation</li>
                       <li>• Focused on reducing downtime</li>
                     </ul>
