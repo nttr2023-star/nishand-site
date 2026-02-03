@@ -1,3 +1,10 @@
+<Image
+  src="/images/logo.png"
+  alt="Nishand Truck & Trailer Repair Inc logo"
+  width={48}
+  height={48}
+  className="h-9 w-9 md:h-12 md:w-12 rounded-xl object-contain"
+/>
 import Image from "next/image";
 import { Phone, MapPin, Clock, Wrench, ShieldCheck, Truck, BadgeCheck } from "lucide-react";
 // Single-page marketing site (React + Tailwind)
