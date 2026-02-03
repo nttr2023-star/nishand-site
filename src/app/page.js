@@ -144,7 +144,7 @@ export default function NishandTruckSite() {
                 Diesel Truck & Trailer Repair + Road Call Services in <span className="text-slate-200">West Sacramento and surrounding areas</span>
               </h1>
               <p className="mt-4 max-w-xl text-base text-slate-300 md:text-lg">
-                Fast, straightforward service for fleets and owner-operators—PMs, diagnostics, electrical, and
+                We offer fast, reliable, and straightforward road call services and in-shop services for fleets and owner-operators—PMs, diagnostics, electrical, and
                 heavy-duty repairs.
               </p>
 
